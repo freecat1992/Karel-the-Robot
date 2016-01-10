@@ -15,8 +15,8 @@ public class StoneMasonKarel extends SuperKarel {
 	// You fill in this part
 	public void run(){
 		finishFirstColumn();
-
-		finishNextColumn();
+		finishSecondColumn();
+		finishThirdColumn();
 
 	}
 	private void finishFirstColumn(){
@@ -39,7 +39,7 @@ public class StoneMasonKarel extends SuperKarel {
 	}
 	
   
-	private void finishNextColumn(){
+	private void finishSecondColumn(){
 	  
 		   while (noBeepersPresent()){
 				putBeeper();
@@ -54,5 +54,24 @@ public class StoneMasonKarel extends SuperKarel {
 			}
 		  }
 	  
+	}
+	
+	private void finishThirdColumn(){
+	    if (frontIsBlocked()){
+			turnLeft();
+			}
+		for (int i=0; i<4; i++){
+					move();
+					}
+		if (rightIsBlocked()){
+			  turnLeft();
+		  }
+		 while (noBeepersPresent()){
+				putBeeper();
+				while (beepersPresent()){
+					move();
+		
+	    }
+      }
 	}
 }
