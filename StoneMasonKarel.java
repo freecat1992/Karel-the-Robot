@@ -50,6 +50,9 @@ public class StoneMasonKarel extends SuperKarel {
 			for (int i=0; i<4; i++){
 						move();
 						}
+			if (rightIsBlocked()){
+				  turnLeft();
+			  }
 				}
 			}
 		  }
@@ -57,15 +60,7 @@ public class StoneMasonKarel extends SuperKarel {
 	}
 	
 	private void finishThirdColumn(){
-	    if (frontIsBlocked()){
-			turnLeft();
-			}
-		for (int i=0; i<4; i++){
-					move();
-					}
-		if (rightIsBlocked()){
-			  turnLeft();
-		  }
+	    
 		 while (noBeepersPresent()){
 				putBeeper();
 				while (beepersPresent()){
