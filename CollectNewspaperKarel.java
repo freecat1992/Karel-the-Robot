@@ -23,6 +23,7 @@ public class CollectNewspaperKarel extends SuperKarel {
 	private void gotoDoor(){
 		if (frontIsClear()){
 			move();
+			move();
 		}else {
 			turnRight();
 			move();
