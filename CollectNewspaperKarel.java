@@ -24,7 +24,7 @@ public class CollectNewspaperKarel extends SuperKarel {
 		if (frontIsClear()){
 			move();
 			move();
-		}else {
+		} else {
 			turnRight();
 			move();
 		}
