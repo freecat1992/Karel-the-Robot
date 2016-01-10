@@ -33,6 +33,9 @@ public class StoneMasonKarel extends SuperKarel {
 		if (leftIsBlocked()){
 			  turnRight();
 		  }
+		if (facingSouth()){
+			turnLeft();
+		}
 			}
 		}
 	  }
