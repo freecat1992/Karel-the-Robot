@@ -30,6 +30,9 @@ public class StoneMasonKarel extends SuperKarel {
 		for (int i=0; i<4; i++){
 					move();
 					}
+		if (leftIsBlocked()){
+			  turnRight();
+		  }
 			}
 		}
 	  }
@@ -38,7 +41,6 @@ public class StoneMasonKarel extends SuperKarel {
   
 	private void finishNextColumn(){
 	  
-		   turnRight();
 		   while (noBeepersPresent()){
 				putBeeper();
 				while (beepersPresent()){
