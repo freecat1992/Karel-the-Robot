@@ -21,10 +21,9 @@ public class CollectNewspaperKarel extends SuperKarel {
 	}
 	/*go to the place where the beeper is */
 	private void gotoDoor(){
-		if (frontIsClear()){
+		while (frontIsClear()){
 			move();
-			move();
-		} else {
+		} 
 			turnRight();
 			move();
 		}
