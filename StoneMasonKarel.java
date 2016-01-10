@@ -25,12 +25,12 @@ public class StoneMasonKarel extends SuperKarel {
 			putBeeper();
 			while (beepersPresent()){
 				move();
+				if (frontIsBlocked()){
+					turnRight();}
 			}
 		}
 	}
 	private void gotoNextColumn(){
-		if (frontIsBlocked()){
-			turnRight();}
 			for (int i=0; i<4; i++){
 			move();
 			}
