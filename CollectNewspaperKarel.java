@@ -17,6 +17,7 @@ public class CollectNewspaperKarel extends SuperKarel {
 		gotoDoor();
 		pickBeeper();
 		goBack();
+		turnAround();
 		
 	}
 	/*go to the place where the beeper is */
