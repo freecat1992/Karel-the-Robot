@@ -24,13 +24,13 @@ public class CollectNewspaperKarel extends SuperKarel {
 		while (frontIsClear()){
 			move();
 		} 
-			turnRight();
-			while (frontIsClear()){
-				move();
-			}
-			if (leftIsClear()){
-			turnLeft();
+		turnRight();
+		while (leftIsBlocked()){
 			move();
+		}
+		if (leftIsClear()){
+		turnLeft();
+		move();
 		}
 	}
 			
