@@ -37,12 +37,20 @@ public class StoneMasonKarel extends SuperKarel {
 	
   
 	private void finishNextColumn(){
-	   while (noBeepersPresent()){
-			putBeeper();
-			while (beepersPresent()){
-				move();
-	   
-          }
-       }
+	   if (leftIsBlocked()){
+		   turnRight();
+		   while (noBeepersPresent()){
+				putBeeper();
+				while (beepersPresent()){
+					move();
+			if (frontIsBlocked()){
+				turnLeft();
+			for (int i=0; i<4; i++){
+						move();
+						}
+				}
+			}
+		  }
+	   }
 	}
 }
