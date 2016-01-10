@@ -27,12 +27,7 @@ public class CollectNewspaperKarel extends SuperKarel {
 			turnRight();
 			move();
 		}
-		if (leftIsClear()){
-			turnLeft();
-			move();
-		}
-	}
-	
+			
 	private void goBack(){
 		turnAround();
 		move();
@@ -41,12 +36,11 @@ public class CollectNewspaperKarel extends SuperKarel {
 	}
 	
 	private void moveBack(){
-		if (frontIsClear()){
+		while (frontIsClear()){
 			move();
-		}else {
+		}
 			turnLeft();
 			move();
 		}
 	}
 	
-}
