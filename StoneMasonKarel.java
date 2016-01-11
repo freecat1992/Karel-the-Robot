@@ -20,7 +20,10 @@ public class StoneMasonKarel extends SuperKarel {
 			// Adjust direction
 			turnLeft();
 			
-			// Sweep a line put beepers
+			// Sweep a line put beepers 
+			// (While front is clear, 1)check/put beeper, 2)move; 
+			// after the while loop, chech/put beeper)
+			
 			
 			// Shift 4 steps to East
 		}
