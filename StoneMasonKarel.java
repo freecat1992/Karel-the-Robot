@@ -14,11 +14,7 @@ public class StoneMasonKarel extends SuperKarel {
 
 	// You fill in this part
 	public void run(){
-		
-		
-		
-		
-		/*
+
 		// Repeat the period until goal
 		while (true) {
 			// Finish a single period
@@ -57,7 +53,6 @@ public class StoneMasonKarel extends SuperKarel {
 				move();
 			}
 		}
-		*/
 	
  }
 }
