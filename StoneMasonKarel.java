@@ -65,8 +65,7 @@ public class StoneMasonKarel extends SuperKarel {
 				move();
 				}
 	
-		 
-		 
+		 		 
 	}	    
 
 	}
