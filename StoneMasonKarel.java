@@ -19,11 +19,11 @@ public class StoneMasonKarel extends SuperKarel {
 		while (frontIsClear()) {
 			// Adjust direction
 			// if turn-L, turn left;
-			if () {
+			if (rightIsBlocked()) {
 				turnLeft();
 			}
 			// if L, turn right
-			if () {
+			if (leftIsBlocked()) {
 				turnRight();
 			}
 			
