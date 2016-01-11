@@ -25,7 +25,7 @@ public class StoneMasonKarel extends SuperKarel {
 		while (frontIsClear()) {
 			move();
 			putBeeper();
-	      while (BeepersPresent()) {
+	      while (beepersPresent()) {
 			move();
 					}
 		}
