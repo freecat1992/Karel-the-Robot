@@ -16,6 +16,9 @@ public class StoneMasonKarel extends SuperKarel {
 	public void run(){
 		// 0) Turn to north
 		turnLeft();
+		if (noBeepersPresent()) {
+			putBeeper();
+		}
 		
 		// 1) Move forward until blocked, put beepers at empty slots
 		while (frontIsClear()) {
