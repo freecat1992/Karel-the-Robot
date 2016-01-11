@@ -14,6 +14,9 @@ public class StoneMasonKarel extends SuperKarel {
 
 	// You fill in this part
 	public void run(){
+		
+		
+		/*
 		// 0) Turn to north
 		turnLeft();
 		if (noBeepersPresent()) {
@@ -48,7 +51,7 @@ public class StoneMasonKarel extends SuperKarel {
 		for (int i=0; i<4; i++) {
 			move();
 		}
-		
+		*/
 		
 		/*
 		turnLeft();
