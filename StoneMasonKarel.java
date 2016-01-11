@@ -14,9 +14,25 @@ public class StoneMasonKarel extends SuperKarel {
 
 	// You fill in this part
 	public void run(){
-
-		// Repeat the period until goal (front and left are blocked)
 		
+		// Repeat the period until goal
+		while () {
+		}
+		}
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*
+		// Repeat the period until goal (front and left are blocked)
 		// Finish a single period:
 		// 0) Turn to north
 		turnLeft();
@@ -65,7 +81,7 @@ public class StoneMasonKarel extends SuperKarel {
 				move();
 				}
 	
-		 		 
+	*/	 		 
 	}	    
 
 	}
