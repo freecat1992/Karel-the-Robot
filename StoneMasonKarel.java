@@ -22,41 +22,31 @@ public class StoneMasonKarel extends SuperKarel {
 		turnLeft();
 			
 		// 1) Move forward until blocked, put beepers at empty slots
-		
-		while (noBeepersPresent()){
-			putBeeper();
-			while (beepersPresent()){
-				move();
+		 if (noBeepersPresent()) {
+			 putBeeper();
+		 } else {
+			 move();
+		 }
+		 while (frontIsClear()) {
+			 move();
+			 if (noBeepersPresent()) {
+				 putBeeper();	 
+			 }
+	
+		 }
+	
 		
 		// 2) Move 4 units East
 	   
-				if (frontIsBlocked()) {
-					turnRight();
-					for (int i=0; i<4; i++){
-						move();
-										}
-				}		
-			}
-			
-		}
+				
 		
 			
 			// 3) Turn to south, repeat 1)
-		 turnRight();
-		 
+		
 			// 4) Move 4 units East
-		    turnRight();
-		    for (int i=0; i<4; i++){
-				move();
-								}
 		    
-		}
-	
-      }
 
-	
-
-
+	}
 
 /*
 		turnLeft();
