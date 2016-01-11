@@ -17,6 +17,7 @@ public class StoneMasonKarel extends SuperKarel {
 		
 		// Repeat the period until goal
 		while (true) {
+			// Adjust direction
 			// Sweep a line put beepers
 			// Shift 4 steps to East
 		}
