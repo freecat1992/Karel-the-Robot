@@ -16,7 +16,7 @@ public class StoneMasonKarel extends SuperKarel {
 	public void run(){
 		
 		// Repeat the period until goal
-		while (goal) {
+		while (true) {
 			
 		}
 		
