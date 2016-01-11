@@ -30,7 +30,6 @@ public class StoneMasonKarel extends SuperKarel {
 		}
 			
 			// 2) Move 4 units East
-		 if (frontIsBlocked()){
 			turnRight();
 		 for (int i=0; i<4; i++){
 			move();
@@ -40,18 +39,22 @@ public class StoneMasonKarel extends SuperKarel {
 		 turnLeft();
 		 while (noBeepersPresent()) {
 				putBeeper();
-					}
 		    while (beepersPresent()) {
 				move();
 						}
+		 }
 			
 			// 4) Move 4 units East
+		    turnRight();
+		    for (int i=0; i<4; i++){
+				move();
+								}
 		    
 		}
 	
       }
 	}
-}
+
 
 
 /*
