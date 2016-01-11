@@ -17,7 +17,7 @@ public class StoneMasonKarel extends SuperKarel {
 
 		// Repeat the period until goal
 		while (true) { 
-			// Finish a single period
+			// Finish a single period:
 			// 0) Turn to north
 			
 			// 1) Move forward until blocked, put beepers at empty slots
