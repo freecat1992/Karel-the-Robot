@@ -19,19 +19,7 @@ public class StoneMasonKarel extends SuperKarel {
 		while (frontIsClear()) {
 			// Adjust direction
 			turnLeft();
-			if (noBeepersPresent()) {
-				 putBeeper();
-			 } else {
-				 move();
-			 }
 			
-			 while (frontIsClear()) {
-				 if (noBeepersPresent()) {
-					 putBeeper();	 
-				 }
-				 move();
-		
-			 }
 			// Sweep a line put beepers
 			
 			// Shift 4 steps to East
