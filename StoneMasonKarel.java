@@ -38,13 +38,35 @@ public class StoneMasonKarel extends SuperKarel {
 	
 		
 		// 2) Move 4 units East
-	   
-				
+	    turnRight();
+	    for (int i=0; i<4; i++){
+			move();
+			}
 		
 			
 			// 3) Turn to south, repeat 1)
-		
+	    turnRight();
+	    if (noBeepersPresent()) {
+			 putBeeper();
+		 } else {
+			 move();
+		 }
+		 while (frontIsClear()) {
+			 move();
+			 if (noBeepersPresent()) {
+				 putBeeper();	 
+			 }
+	
+		 }
+	    		
 			// 4) Move 4 units East
+		 turnLeft();
+		 for (int i=0; i<4; i++){
+				move();
+				}
+	
+		 
+		 
 	}	    
 
 	}
