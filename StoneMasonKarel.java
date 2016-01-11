@@ -19,47 +19,41 @@ public class StoneMasonKarel extends SuperKarel {
 		while (true) { 
 			// Finish a single period:
 			// 0) Turn to north
+			turnLeft();
 			
 			// 1) Move forward until blocked, put beepers at empty slots
+		while (noBeepersPresent()) {
+			putBeeper();
+				}
+	    while (beepersPresent()) {
+			move();
+					}
 			
 			// 2) Move 4 units East
+		 if (frontIsBlocked()){
+			turnRight();
+		 for (int i=0; i<4; i++){
+			move();
+							}
 			
 			// 3) Turn to south, repeat 1)
+		 turnLeft();
+		 while (noBeepersPresent()) {
+				putBeeper();
+					}
+		    while (beepersPresent()) {
+				move();
+						}
 			
 			// 4) Move 4 units East
+		    
 		}
 	
  }
 }
 
 
-/*private void gotoColumn(){
-		if (frontIsBlocked()){
-			if (facingNorth()){
-				turnRight();
-				for (int i=0; i<4; i++){
-				move();}
-				turnRight();
-			}
-			if (facingSouth()){
-				turnLeft();
-				for (int i=0; i<4; i++){
-					move();}
-				turnLeft();
-			}
-		}
-	}
-		
-	
-*/
-		
-		
-/*finishFirstColumn();
-		finishSecondColumn();
-		finishThirdColumn();
-
-	}
-	private void finishFirstColumn(){
+/*
 		turnLeft();
 		while (noBeepersPresent()){
 			putBeeper();
