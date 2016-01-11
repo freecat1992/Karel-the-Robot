@@ -17,6 +17,7 @@ public class StoneMasonKarel extends SuperKarel {
 		// Turn to north
 		// Move forward until blocked, put beepers at empty slots
 		// Move 4 units to the East
+		// 
 		
 		
 		
