@@ -22,7 +22,7 @@ public class StoneMasonKarel extends SuperKarel {
 			while (beepersPresent()){
 				move();
 			}
-		
+		}
 		if (frontIsBlocked()){
 			if (facingNorth()){
 				turnRight();
@@ -38,7 +38,6 @@ public class StoneMasonKarel extends SuperKarel {
 			}
 		}
 			
-		}
 	
  }
 }
