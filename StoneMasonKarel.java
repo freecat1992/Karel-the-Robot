@@ -18,7 +18,6 @@ public class StoneMasonKarel extends SuperKarel {
 		}
 	
 	private void finishColumn(){
-		    turnLeft();
 		while (noBeepersPresent()){
 			putBeeper();
 			while (beepersPresent()){
