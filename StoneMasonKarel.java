@@ -28,16 +28,16 @@ public class StoneMasonKarel extends SuperKarel {
 				move();
 				if (frontIsBlocked()) {
 					turnRight();
+					for (int i=0; i<4; i++){
+						move();
+										}
 				}		
 			}
 			
 		}
 			
 			// 2) Move 4 units East
-		
-		 for (int i=0; i<4; i++){
-			move();
-							}
+
 			
 			// 3) Turn to south, repeat 1)
 		 turnLeft();
