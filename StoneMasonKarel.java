@@ -14,12 +14,12 @@ public class StoneMasonKarel extends SuperKarel {
 
 	// You fill in this part
 	public void run(){
-		  turnLeft();
-		
-	
-		while (noBeepersPresent()){
+		/*
+		turnLeft();
+		 
+		while (noBeepersPresent()) {
 			putBeeper();
-			while (beepersPresent()){
+			while (beepersPresent()) {
 				move();
 			}
 		}
@@ -37,6 +37,7 @@ public class StoneMasonKarel extends SuperKarel {
 				turnLeft();
 			}
 		}
+		*/
 			
 	
  }
