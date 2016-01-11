@@ -17,7 +17,7 @@ public class StoneMasonKarel extends SuperKarel {
 		
 		// Repeat the period until goal
 		while () {
-			
+			// Finish a single period
 		}
 		
 		
