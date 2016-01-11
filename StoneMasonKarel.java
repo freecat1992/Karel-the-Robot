@@ -22,9 +22,11 @@ public class StoneMasonKarel extends SuperKarel {
 			if (rightIsBlocked()) {
 				turnLeft();
 			}
-			// if L, turn right
-			if (leftIsBlocked()) {
-				turnRight();
+			// else if L, turn right
+			else {
+				if (leftIsBlocked()) {
+					turnRight();
+				}
 			}
 			
 			// Sweep a line put beepers 
