@@ -28,6 +28,23 @@ public class StoneMasonKarel extends SuperKarel {
 			// While front is clear, 1) move, 2) check/put beeper
 			
 			
+			
+			 if (noBeepersPresent()) {
+				 putBeeper();
+			 } else {
+				 move();
+			 }
+			 
+			 while (frontIsClear()) {
+				 move();
+				 if (noBeepersPresent()) {
+					 putBeeper();	 
+				 }
+		
+			 }
+			 
+			 // check/put beeper, if not empty move
+			
 			// Shift 4 steps to East
 		}
 		
