@@ -16,9 +16,24 @@ public class StoneMasonKarel extends SuperKarel {
 	public void run(){
 		
 		// Repeat the period until goal
-		while (true) {
+		while (frontIsClear()) {
 			// Adjust direction
+			turnLeft();
+			if (noBeepersPresent()) {
+				 putBeeper();
+			 } else {
+				 move();
+			 }
+			
+			 while (frontIsClear()) {
+				 if (noBeepersPresent()) {
+					 putBeeper();	 
+				 }
+				 move();
+		
+			 }
 			// Sweep a line put beepers
+			
 			// Shift 4 steps to East
 		}
 		
