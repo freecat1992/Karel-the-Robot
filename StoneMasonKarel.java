@@ -27,13 +27,13 @@ public class StoneMasonKarel extends SuperKarel {
 			while (beepersPresent()){
 				move();
 			}
-			if (frontIsBlocked()) {
-				turnRight();
-			}
+			
 		}
 			
 			// 2) Move 4 units East
-			
+		if (frontIsBlocked()) {
+			turnRight();
+		}	
 		 for (int i=0; i<4; i++){
 			move();
 							}
