@@ -22,10 +22,11 @@ public class StoneMasonKarel extends SuperKarel {
 		turnLeft();
 			
 			// 1) Move forward until blocked, put beepers at empty slots
-		while (beepersPresent()) {
+		while (frontIsClear()) {
 			move();
-	      while (noBeepersPresent()) {
 			putBeeper();
+	      while (BeepersPresent()) {
+			move();
 					}
 		}
 			
