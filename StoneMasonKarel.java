@@ -21,20 +21,11 @@ public class StoneMasonKarel extends SuperKarel {
 			turnLeft();
 			
 			// Sweep a line put beepers 
-			// (While front is clear, 1)check/put beeper, 2)move; 
-			// after the while loop, check/put beeper)
-			
 			// check/put beeper 
-			// While front is clear, 1) move, 2) check/put beeper
-			
-			
-			
+			// While front is clear, 1) move, 2) check/put beeper	
 			 if (noBeepersPresent()) {
 				 putBeeper();
-			 } else {
-				 move();
-			 }
-			 
+			 }	 
 			 while (frontIsClear()) {
 				 move();
 				 if (noBeepersPresent()) {
@@ -42,11 +33,21 @@ public class StoneMasonKarel extends SuperKarel {
 				 }
 		
 			 }
-			 
-			 // check/put beeper, if not empty move
-			 // while front is clear, 1) move, 2) check/put beeper
-			
+
 			// Shift 4 steps to East
+			if (facingNorth()) {
+				turnRight();	
+			}
+			if (facingSouth()) {
+				turnLeft();
+			}
+			for (int i=0; i<4; i++){
+				move();
+			}
+			
+			
+			
+			
 		}
 		
 
