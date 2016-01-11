@@ -24,6 +24,8 @@ public class StoneMasonKarel extends SuperKarel {
 			// (While front is clear, 1)check/put beeper, 2)move; 
 			// after the while loop, check/put beeper)
 			
+			//
+			
 			
 			// Shift 4 steps to East
 		}
