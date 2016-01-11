@@ -53,11 +53,32 @@ public class StoneMasonKarel extends SuperKarel {
 			for (int i=0; i<4; i++){
 				move();
 			}
-			
-			
-			
-			
+					
 		}
+		
+		//while front is blocked
+		//1)if  left is blocked--turn right
+		//2)if right is blocked--turn left
+		//3)sweep column
+		
+		
+			if (leftIsBlocked()) {
+				turnRight();
+			} else {
+			    if (rightIsBlocked()){
+			    	turnLeft();
+			    }
+			}
+			
+			if (noBeepersPresent()) {
+				 putBeeper();
+			 }	 
+			 while (frontIsClear()) {
+				 move();
+				 if (noBeepersPresent()) {
+					 putBeeper();	 
+				 }
+			 }
 		
 
 		
