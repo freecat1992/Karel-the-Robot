@@ -18,6 +18,8 @@ public class StoneMasonKarel extends SuperKarel {
 		turnLeft();
 		
 		// 1) Move forward until blocked, put beepers at empty slots
+		
+		
 		// 2) Move 4 units East
 		// 3) Turn to south, repeat 1) - 2)
 		// 4) Turn left, move 4 units East, repeat 0) - 3)
