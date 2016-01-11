@@ -18,7 +18,14 @@ public class StoneMasonKarel extends SuperKarel {
 		// Repeat the period until goal
 		while (frontIsClear()) {
 			// Adjust direction
-			turnLeft();
+			// if turn-L, turn left;
+			if () {
+				turnLeft();
+			}
+			// if L, turn right
+			if () {
+				turnRight();
+			}
 			
 			// Sweep a line put beepers 
 			// check/put beeper 
