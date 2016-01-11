@@ -15,7 +15,7 @@ public class StoneMasonKarel extends SuperKarel {
 	// You fill in this part
 	public void run(){
 		// Turn to north
-		// Move forward until blocked, put beepers
+		// Move forward until blocked, put beepers at empty slots
 		
 		
 		
