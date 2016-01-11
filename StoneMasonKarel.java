@@ -17,12 +17,13 @@ public class StoneMasonKarel extends SuperKarel {
 
 		// Repeat the period until goal (front and left are blocked)
 		
-			// Finish a single period:
-			// 0) Turn to north
+		// Finish a single period:
+		// 0) Turn to north
 		turnLeft();
 			
-			// 1) Move forward until blocked, put beepers at empty slots
-		while (noBeepersPresent()){
+		// 1) Move forward until blocked, put beepers at empty slots
+		while (frontIsClear()){
+			move();
 			putBeeper();
 			while (beepersPresent()){
 				move();
