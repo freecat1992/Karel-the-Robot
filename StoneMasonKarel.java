@@ -60,8 +60,6 @@ public class StoneMasonKarel extends SuperKarel {
 		//1)if  left is blocked--turn right
 		//2)if right is blocked--turn left
 		//3)sweep column
-		
-		
 			if (leftIsBlocked()) {
 				turnRight();
 			} else {
@@ -77,6 +75,15 @@ public class StoneMasonKarel extends SuperKarel {
 				 move();
 				 if (noBeepersPresent()) {
 					 putBeeper();	 
+				 }
+			 }
+			 
+			 //go back to facing east
+			 if (facingNorth()) {
+				 turnRight();
+			 } else {
+				 if (facingSouth()) {
+					 turnLeft();
 				 }
 			 }
 		
