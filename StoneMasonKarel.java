@@ -14,7 +14,42 @@ public class StoneMasonKarel extends SuperKarel {
 
 	// You fill in this part
 	public void run(){
-		finishFirstColumn();
+		turnLeft();
+		finishColumn();
+		gotoColumn();
+	
+	private void finishColumn(){
+		while (noBeepersPresent()){
+			putBeeper();
+			while (beepersPresent()){
+				move();
+			}
+	   }
+	}
+	
+	private void gotoColumn(){
+		if (frontIsBlocked()){
+			if (facingNorth()){
+				turnRight();
+				for (int i=0; i<4; i++){
+				move();}
+				turnRight();
+			}
+			if (facingSouth()){
+				turnLeft();
+				for (int i=0; i<4; i++){
+					move();}
+				turnLeft();
+			}
+		}
+	}
+		
+	}
+	
+}
+		
+		
+/*finishFirstColumn();
 		finishSecondColumn();
 		finishThirdColumn();
 
@@ -33,9 +68,6 @@ public class StoneMasonKarel extends SuperKarel {
 		if (leftIsBlocked()){
 			  turnRight();
 		  }
-		if (facingSouth()){
-			turnLeft();
-		}
 			}
 		}
 	  }
