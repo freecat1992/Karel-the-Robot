@@ -45,7 +45,9 @@ public class StoneMasonKarel extends SuperKarel {
 		
 		// 4) Move 4 units East, repeat 0) - 3)
 		turnLeft();
-		
+		for (int i=0; i<4; i++) {
+			move();
+		}
 		
 		
 		/*
