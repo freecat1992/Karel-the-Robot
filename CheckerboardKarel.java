@@ -16,12 +16,15 @@ public void run() {
 	
 
 //1  while there is beeper, move; while no beeper, put beeper, move
-	while (noBeepersPresent()) {
+	while (true) {
+		while (noBeepersPresent()) {
+	}
 		putBeeper();
 	}
 	while (beepersPresent()) {
 		move();
 	}
+}
 // if front is blocked, 
 // 1) if facing east, turn left
 //    if there is beeper, move, turn left,move, put beeper, repeat 2
