@@ -49,7 +49,7 @@ while (frontIsClear()) {
 }
 
 //when there is only one beeper left, stop
-	putBeeper();
+	
 	
 	
 	
