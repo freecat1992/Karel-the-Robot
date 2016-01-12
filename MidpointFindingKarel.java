@@ -15,5 +15,15 @@ import stanford.karel.*;
 public class MidpointFindingKarel extends SuperKarel {
 
 	// You fill in this part
-
+public void run() {
+//fill the row with beepers
+//pick beeper from the east most unit, then pick beeper from the west most unit
+//pick beeper from the east end, pick beeper from west end, repeat
+//when there is only one beeper left, stop
+	
+	
+	
+	
+	
+}
 }
