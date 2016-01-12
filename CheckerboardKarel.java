@@ -16,10 +16,9 @@ public void run() {
 //1 put beeper
     putBeeper();
 //2 while there is beeper, move; while no beeper, move, put beeper
-	while (beepersPresent()) {
+	if (beepersPresent()) {
 		move();
-	}
-	while (noBeepersPresent()) {
+	    } else {
 		move();
 		putBeeper();
 	}
