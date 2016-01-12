@@ -21,9 +21,23 @@ while (frontIsClear()) {
 	putBeeper();
 	move();
 }
-		putBeeper();
-//pick beeper from the east most unit, then pick beeper from the west most unit
+	putBeeper();
 //pick beeper from the east end, pick beeper from west end, repeat
+    turnAround();
+if (beepersPresent()) {
+	pickBeeper();
+	move();
+}
+while (frontIsClear()) {
+	move();
+}
+    turnAround();
+if (beepersPresent()) {
+	pickBeeper();
+	move();
+}
+    
+
 //when there is only one beeper left, stop
 	
 	
