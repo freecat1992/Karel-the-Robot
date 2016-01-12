@@ -43,9 +43,7 @@ while (frontIsClear()) {
 		turnAround();
 		move();
 		pickBeeper();
-	} else {
-		turnAround();
-	}
+	} 
 }
 
 //when there is only one beeper left, stop
