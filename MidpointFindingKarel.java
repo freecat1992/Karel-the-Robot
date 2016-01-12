@@ -36,7 +36,15 @@ if (beepersPresent()) {
 	pickBeeper();
 	move();
 }
-    
+   
+while (frontIsClear()) {
+	move();
+	if (noBeepersPresent()) {
+		turnAround();
+		move();
+		pickBeeper();
+	}
+}
 
 //when there is only one beeper left, stop
 	
