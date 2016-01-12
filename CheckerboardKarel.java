@@ -13,21 +13,19 @@ public class CheckerboardKarel extends SuperKarel {
 
 	// You fill in this part
 public void run() {
-	
-
-//1  while there is beeper, move; while no beeper, put beeper, move
-	while (true) {
-		while (noBeepersPresent()) {
-	}
-		putBeeper();
-	}
+//1 put beeper
+    putBeeper();
+//2 while there is beeper, move; while no beeper, move, put beeper
 	while (beepersPresent()) {
 		move();
 	}
-}
+	while (noBeepersPresent()) {
+		move();
+		putBeeper();
+	}
 // if front is blocked, 
 // 1) if facing east, turn left
-//    if there is beeper, move, turn left,move, put beeper, repeat 2
+//    if there is beeper, move, turn left
 //	  if no beeper, move, put beeper, turn left,repeat 2
 	
 // 2) if facing west, turn right
