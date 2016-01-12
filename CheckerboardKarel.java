@@ -27,7 +27,6 @@ public void run() {
 //    if there is beeper, move, turn left,move, put beeper, repeat 2
 //	  if no beeper, move, put beeper, turn left,repeat 2
 	
-	}
 // 2) if facing west, turn right
 //    if there is beeper, move, turn right,move, put beeper, repeat 2
 //	  if no beeper, move, put beeper, turn right,repeat 2
