@@ -30,19 +30,18 @@ public void run() {
 //	  if no beeper, move, put beeper, turn left,repeat 2
 	if (facingEast()) {
 		turnLeft();
-		while (frontIsClear()) {
-			 if (beepersPresent()) {
+		if (beepersPresent()) {
 			move();
 			turnLeft();
 			move();
 			putBeeper();
-		    } else {
+		} else {
 			move();
 			putBeeper();
 			turnLeft();
 		}
 	  }
-	}
+
 	
 // 2) if facing west, turn right
 //    if there is beeper, move, turn right,move, put beeper, repeat 2
