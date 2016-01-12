@@ -43,6 +43,8 @@ while (frontIsClear()) {
 		turnAround();
 		move();
 		pickBeeper();
+	} else {
+		turnAround();
 	}
 }
 
