@@ -47,7 +47,9 @@ while (frontIsClear()) {
 }
 
 //when there is only one beeper left, stop
-	
+	if (beepersPresent()) {
+		turnAround();
+	}
 	
 	
 	
