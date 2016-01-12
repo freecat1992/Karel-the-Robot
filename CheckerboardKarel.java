@@ -41,12 +41,44 @@ public void run() {
 			turnLeft();
 		}
 	  }
-
+	
+	while (frontIsClear()) {
+		if (beepersPresent()) {
+		move();
+	    } else {
+		move();
+		putBeeper();
+	}
+  }
 	
 // 2) if facing west, turn right
 //    if there is beeper, move, turn right,move, put beeper, repeat 2
 //	  if no beeper, move, put beeper, turn right,repeat 2
-
+    
+	if (facingWest()) {
+		turnRight();
+		if (beepersPresent()) {
+			move();
+			turnRight();
+			move();
+			putBeeper();
+		} else {
+			move();
+			putBeeper();
+			turnRight();
+		}
+	  }
+	
+	while (frontIsClear()) {
+		if (beepersPresent()) {
+		move();
+	    } else {
+		move();
+		putBeeper();
+	}
+  }
+	
+	
 	
 	
 }
