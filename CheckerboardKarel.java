@@ -13,19 +13,19 @@ public class CheckerboardKarel extends SuperKarel {
 
 	// You fill in this part
 	public void run() {
-		// while front is clear, sweep row
+		// While front is clear, sweep row
 		while (frontIsClear()) {
-			// starting state: facing to the end of the row
+			// Starting state: Facing to the end of the row
 			
-			// while front is clear, move forward
+			// While front is clear, move forward
 			while (frontIsClear()) {
 				
 			}
 			
-			// if not hit ceiling, change direction, ...
+			// If not hit ceiling, change direction, ...
 			// and move to the new row
 			
-			// ending state: facing to the end of the new row
+			// Ending state: facing to the end of the new row
 		}
 	}
 	
