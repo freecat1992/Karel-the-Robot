@@ -28,7 +28,7 @@ public void run() {
 		if (facingEast()) {
 			turnLeft();
 			move();
-			
+			turnLeft();
 		} else {
 			if (facingWest()) {
 				turnRight();
