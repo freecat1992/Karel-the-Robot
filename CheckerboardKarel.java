@@ -15,6 +15,8 @@ public class CheckerboardKarel extends SuperKarel {
 	public void run() {
 		// while front is clear, sweep row
 		while (frontIsClear()) {
+			
+			
 			// while front is clear, move forward
 			while (frontIsClear()) {
 				
