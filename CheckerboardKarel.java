@@ -33,7 +33,7 @@ public void run() {
 		// TODO: check if hit ceiling
 		// change direction, two conditions (left -> right, or right -> left)
 		// if beeper presents, move
-				// else move and put beeper
+		// else move and put beeper
 		if (facingEast()) {
 			turnLeft();
 			move();
