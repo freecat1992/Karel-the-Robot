@@ -34,8 +34,7 @@ public class CheckerboardKarel extends SuperKarel {
 				if (beepersPresent()) {
 					move();
 					turnLeft();
-					move();
-					putBeeper();}
+					}
 			    else {
 					move();
 					putBeeper();
