@@ -23,7 +23,7 @@ public void run() {
 	// AND: && 
 	// OR: ||
 	
-	while (/*end condition*/) {
+	while ((facingWest() &&) {
 		// move forward, put beepers, until front is blocked
 		while (frontIsClear()) {
 			putBeeper();
