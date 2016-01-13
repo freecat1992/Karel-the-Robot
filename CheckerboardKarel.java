@@ -50,7 +50,7 @@ public void run() {
 //    if there is beeper, move, turn right,move, put beeper, repeat 2
 //	  if no beeper, move, put beeper, turn right,repeat 2
     
-	if (facingWest()) {
+/*	if (facingWest()) {
 		turnRight();
 		if (beepersPresent()) {
 			move();
@@ -64,7 +64,7 @@ public void run() {
 
 	}
   }
-
+*/
 	
 	
 	
