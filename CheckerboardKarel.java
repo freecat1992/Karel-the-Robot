@@ -23,7 +23,11 @@ public class CheckerboardKarel extends SuperKarel {
 			
 			// While front is clear, move forward put beepers
 			while (frontIsClear()) {
-				
+				if (beeperPresent()) {
+					
+				} else {
+					
+				}
 			}
 			
 			// If not hit ceiling, change direction, ...
