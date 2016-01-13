@@ -15,7 +15,7 @@ public class CheckerboardKarel extends SuperKarel {
 public void run() {
 	
 	// Sweep row, until end
-	while (/**/) {
+	while (/*end*/) {
 		
 	}
 	
