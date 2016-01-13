@@ -17,6 +17,7 @@ public void run() {
 	// Sweep row, until end
 	// end condition: 
 
+	putBeeper();
 	
 	while (frontIsClear()) {
 		// move forward, put beepers, until front is blocked
