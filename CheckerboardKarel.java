@@ -20,6 +20,8 @@ public void run() {
 	// ((facing west AND right is blocked)
 	// OR
 	// (facing east AND left is blocked))
+	// AND: && 
+	// OR: ||
 	
 	while (/*end condition*/) {
 		// move forward, put beepers, until front is blocked
