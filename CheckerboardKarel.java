@@ -16,17 +16,18 @@ public class CheckerboardKarel extends SuperKarel {
 	//put beeper at first unit
 		putBeeper();
 	//finish row
+	while (frontIsClear()) {
 		while (frontIsClear()) {
+
 			if (beepersPresent()) {
 				move();
-				move();
-				putBeeper();
 			}else {
 				move();
 				putBeeper();
 			}
 			
 		}
+	}
     //change directions 
 		if (facingEast()) {
 			if (leftIsClear()) {
