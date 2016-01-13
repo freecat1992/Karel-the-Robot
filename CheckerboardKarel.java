@@ -40,11 +40,11 @@ public class CheckerboardKarel extends SuperKarel {
 						turnLeft();
 						move();
 						turnLeft();
-						putBeeper();
 					} else {
 						turnLeft();
 						move();
 						turnLeft();
+						putBeeper();
 					}
 				}
 			} else {
@@ -54,11 +54,11 @@ public class CheckerboardKarel extends SuperKarel {
 							turnRight();
 							move();
 							turnRight();
-							putBeeper();
 						} else {
 							turnRight();
 							move();
 							turnRight();
+							putBeeper();
 						}
 					}
 				}
