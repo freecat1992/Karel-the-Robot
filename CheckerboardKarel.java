@@ -12,7 +12,7 @@ import stanford.karel.*;
 public class CheckerboardKarel extends SuperKarel {
 
 	// You fill in this part
-public void run() {
+public void run1() {
 	
 //1 put beeper
     putBeeper();
@@ -49,7 +49,7 @@ public void run() {
 //    if there is beeper, move, turn right,move, put beeper, repeat 2
 //	  if no beeper, move, put beeper, turn right,repeat 2
     
-	else { if (facingWest()) {
+	if (facingWest()) {
 		turnRight();
 		if (beepersPresent()) {
 			move();
@@ -58,7 +58,6 @@ public void run() {
 			move();
 			putBeeper();
 			turnRight();
-		}
 	   }
 	  }
 
