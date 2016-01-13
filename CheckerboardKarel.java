@@ -36,8 +36,6 @@ public void run() {
 		if (beepersPresent()) {
 			move();
 			turnLeft();
-			move();
-			putBeeper();
 		} else {
 			move();
 			putBeeper();
@@ -56,8 +54,6 @@ public void run() {
 		if (beepersPresent()) {
 			move();
 			turnRight();
-			move();
-			putBeeper();
 		} else {
 			move();
 			putBeeper();
