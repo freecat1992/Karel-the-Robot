@@ -17,7 +17,7 @@ public void run() {
 //1 put beeper
     putBeeper();
 //2 while there is beeper, move; while no beeper, move, put beeper
-	while (frontIsClear()) {
+
 		while (frontIsClear()) {
 		if (beepersPresent()) {
 		move();
@@ -67,7 +67,7 @@ public void run() {
 
 	}
   }
-}
+
 	
 	
 	
