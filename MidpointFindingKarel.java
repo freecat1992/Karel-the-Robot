@@ -42,7 +42,7 @@ while (frontIsClear()) {
 	if (noBeepersPresent()) {
 		turnAround();
 		move();
-		pickBeeper();
+		putBeeper();
 	} 
 }
 
