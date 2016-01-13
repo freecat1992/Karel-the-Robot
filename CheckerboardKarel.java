@@ -22,6 +22,7 @@ public void run() {
 			putBeeper();
 			move();
 			move();
+			// TODO: 
 		}
 		
 	}
