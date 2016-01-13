@@ -43,14 +43,13 @@ public void run() {
 			putBeeper();
 		    turnLeft();}
 	  }
-}
-}	
+
 	
 // 2) if facing west, turn right
 //    if there is beeper, move, turn right,move, put beeper, repeat 2
 //	  if no beeper, move, put beeper, turn right,repeat 2
     
-/*	if (facingWest()) {
+	else { if (facingWest()) {
 		turnRight();
 		if (beepersPresent()) {
 			move();
@@ -60,11 +59,12 @@ public void run() {
 			putBeeper();
 			turnRight();
 		}
+	   }
 	  }
 
 	}
   }
-*/
+
 	
 	
 	
