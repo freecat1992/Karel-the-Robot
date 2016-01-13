@@ -14,6 +14,9 @@ public class CheckerboardKarel extends SuperKarel {
 	// You fill in this part
 	public void run() {
 		// While front is clear, sweep row
+		
+		// Initiate 
+		
 		while (frontIsClear()) {
 			// Starting state: Facing to the end of the row, 
 			// with beepers under feet (not always)
