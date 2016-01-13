@@ -13,6 +13,13 @@ public class CheckerboardKarel extends SuperKarel {
 
 	// You fill in this part
 public void run() {
+	
+	// Sweep row, until end
+	
+	
+	
+	
+	
 //1 put beeper
     putBeeper();
 //2 while there is beeper, move; while no beeper, move, put beeper
