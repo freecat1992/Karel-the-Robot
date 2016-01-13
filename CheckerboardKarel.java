@@ -26,7 +26,7 @@ public void run() {
 		putBeeper();
 	}
   }
-}
+
 // if front is blocked, 
 // 1) if facing east, turn left
 //    if there is beeper, move, turn left,move, put beeper, repeat 2
@@ -66,7 +66,7 @@ public void run() {
 	  }
 
 	}
-	
+  }
 }
 	
 	
