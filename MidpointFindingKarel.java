@@ -29,9 +29,10 @@ while (frontIsClear()) {
 	move();
 }
     turnAround();
-	pickBeeper();  
+	pickBeeper(); 
 while (frontIsClear()) {
 	move();
+	turnAround();
 	if (noBeepersPresent()) {
 		turnAround();
 		move();
