@@ -17,7 +17,7 @@ public class CheckerboardKarel extends SuperKarel {
 		while (frontIsClear()) {
 			// while front is clear, move forward
 			
-			// if 
+			// if not hit ceiling, change direction
 		}
 	}
 	
