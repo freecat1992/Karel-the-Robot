@@ -20,6 +20,7 @@ public void run() {
 		// move forward, put beepers, until front is blocked
 		while (frontIsClear()) {
 			move();
+			
 		}
 		
 	}
