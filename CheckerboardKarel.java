@@ -17,7 +17,7 @@ public void run() {
 	// Sweep row, until end
 	while (/*end condition*/) {
 		// two conditions (left -> right, or right -> left)
-		
+		// move forward, put beepers
 		
 	}
 	
