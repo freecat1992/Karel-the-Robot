@@ -27,7 +27,7 @@ public class CheckerboardKarel extends SuperKarel {
 			// and move to the new row
 			
 			// Ending state: facing to the end of the new row, 
-			// put beepers
+			// put beepers (not always)
 		}
 	}
 	
