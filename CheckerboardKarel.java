@@ -35,7 +35,7 @@ public void run() {
 				move();
 				turnRight();
 			}
-		}
+		} 
 		
 	}
 	
