@@ -22,7 +22,7 @@ public class CheckerboardKarel extends SuperKarel {
 				
 			}
 			
-			// if not hit ceiling, change direction,
+			// if not hit ceiling, change direction, ...
 			// and move to the new row
 			
 			// ending state: facing to the end of the new row
