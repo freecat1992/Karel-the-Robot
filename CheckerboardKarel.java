@@ -25,9 +25,19 @@ public void run() {
 		}
 		
 		// two conditions (left -> right, or right -> left)
-		if () {
-			
-		}
+		if (facingWest()) {
+			turnRight();
+			if (beepersPresent()) {
+				move();
+				turnRight();
+				move();
+				putBeeper();
+			} else {
+				move();
+				putBeeper();
+				turnRight();
+			}
+		  }
 	}
 	
 	
