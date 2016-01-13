@@ -39,7 +39,7 @@ public void run() {
 			}
 		} 
 		
-		// TODO: check id hit ceiling
+		// TODO: check if hit ceiling
 	}
 	
 	
