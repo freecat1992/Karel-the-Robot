@@ -26,6 +26,7 @@ public void run() {
 			// TODO: even/odd column check
 		}
 		
+		// TODO: check if hit ceiling
 		// change direction, two conditions (left -> right, or right -> left)
 		if (facingEast()) {
 			turnLeft();
@@ -39,7 +40,6 @@ public void run() {
 			}
 		} 
 		
-		// TODO: check if hit ceiling
 	}
 	
 	
