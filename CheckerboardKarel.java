@@ -18,7 +18,7 @@ public void run() {
 	while (/*end condition*/) {
 		// two conditions (left -> right, or right -> left)
 		// move forward, put beepers, until front is blocked
-		while () {
+		while (fronIfCleared()) {
 			
 		}
 		
