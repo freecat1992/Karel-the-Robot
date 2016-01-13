@@ -16,7 +16,7 @@ public void run() {
 	
 	// Sweep row, until end
 	while (/*end condition*/) {
-		
+		// two conditions
 	}
 	
 	
