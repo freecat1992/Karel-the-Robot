@@ -39,8 +39,8 @@ public class CheckerboardKarel extends SuperKarel {
 			    else {
 					turnLeft();
 					move();
-					putBeeper();
-				    turnLeft();}
+					turnLeft();
+				    putBeeper();}
 			}
 		} else {
 			if (facingWest()) {
@@ -52,8 +52,8 @@ public class CheckerboardKarel extends SuperKarel {
 					} else {
 						turnRight();
 						move();
-						putBeeper();
 						turnRight();
+						putBeeper();
 						
 					
 				}
