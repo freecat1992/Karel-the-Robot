@@ -25,6 +25,9 @@ public void run() {
 		}
 		
 		// two conditions (left -> right, or right -> left)
+		if () {
+			
+		}
 	}
 	
 	
