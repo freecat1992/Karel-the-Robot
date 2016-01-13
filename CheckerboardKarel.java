@@ -16,14 +16,9 @@ public void run() {
 	
 	// Sweep row, until end
 	// end condition: 
+
 	
-	// ((facing west AND right is blocked)
-	// OR
-	// (facing east AND left is blocked))
-	// AND: && 
-	// OR: ||
-	
-	while ((facingWest() &&) {
+	while (frontIsClear()) {
 		// move forward, put beepers, until front is blocked
 		while (frontIsClear()) {
 			putBeeper();
