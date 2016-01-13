@@ -50,14 +50,14 @@ public class CheckerboardKarel extends SuperKarel {
 				if (facingWest()) {
 					if (leftIsClear()) { // not hit ceiling
 						if (beepersPresent()) {
-							turnLeft();
+							turnRight();
 							move();
-							turnLeft();
+							turnRight();
 							putBeeper();
 						} else {
-							turnLeft();
+							turnRight();
 							move();
-							turnLeft();
+							turnRight();
 						}
 					}
 				}
