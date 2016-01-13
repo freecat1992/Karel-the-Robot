@@ -30,12 +30,13 @@ public class CheckerboardKarel extends SuperKarel {
     //change directions 
 		if (facingEast()) {
 			if (leftIsClear()) {
-				turnLeft();
 				if (beepersPresent()) {
+					turnLeft();
 					move();
 					turnLeft();
 					}
 			    else {
+					turnLeft();
 					move();
 					putBeeper();
 				    turnLeft();}
@@ -43,11 +44,12 @@ public class CheckerboardKarel extends SuperKarel {
 		} else {
 			if (facingWest()) {
 				if (rightIsClear()) {
-					turnRight();
 					if (beepersPresent()) {
+						turnRight();
 						move();
 						turnRight();
 					} else {
+						turnRight();
 						move();
 						putBeeper();
 						turnRight();
