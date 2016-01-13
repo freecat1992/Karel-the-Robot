@@ -13,7 +13,66 @@ public class CheckerboardKarel extends SuperKarel {
 
 	// You fill in this part
 	public void run() {
-		// While front is clear, sweep row
+	//put beeper at first unit
+		putBeeper();
+	//finish row
+		while (frontIsClear()) {
+			if (beepersPresent()) {
+				move();
+				move();
+				putBeeper();
+			}else {
+				move();
+				putBeeper();
+			}
+			
+		}
+    //change directions 
+		if (facingEast()) {
+			if (leftIsClear()) {
+				turnLeft();
+				if (beepersPresent()) {
+					move();
+					turnLeft();
+					move();
+					putBeeper();}
+			    else {
+					move();
+					putBeeper();
+				    turnLeft();}
+			}
+		} else {
+			if (facingWest()) {
+				if (rightIsClear()) {
+					turnRight();
+					if (beepersPresent()) {
+						move();
+						turnRight();
+					} else {
+						move();
+						putBeeper();
+						turnRight();
+					
+				}
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+}
+		
+		
+		/*		// While front is clear, sweep row
 		
 		// Initiate (according to our defined starting state)
 		putBeeper();
@@ -34,7 +93,7 @@ public class CheckerboardKarel extends SuperKarel {
 			
 			// If not hit ceiling, change direction, ...
 			// and move to the new row
-			if (facingEast()) {
+	 if (facingEast()) {
 				if (leftIsClear()) { // not hit ceiling
 					if (beepersPresent()) {
 						turnLeft();
@@ -68,7 +127,7 @@ public class CheckerboardKarel extends SuperKarel {
 			// with beeper under feet (not always)
 		}
 	}
-	
+*/
 	
 	
 /*	
@@ -122,7 +181,6 @@ public void run1() {
 	  }
 	}
 	*/
-  }
 
 	
 	
