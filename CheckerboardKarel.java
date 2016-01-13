@@ -35,7 +35,11 @@ public class CheckerboardKarel extends SuperKarel {
 			// and move to the new row
 			if (facingEast()) {
 				if (leftIsClear()) { // not hit ceiling
-					
+					if (beepersPresent()) {
+						
+					} else {
+						
+					}
 				}
 			}
 			
