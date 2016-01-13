@@ -34,13 +34,12 @@ public void run() {
 	if (facingEast()) {
 		turnLeft();
 		if (beepersPresent()) {
-			move();
-			turnLeft();
-		} else {
+			move();}
+	    else {
 			move();
 			putBeeper();
-			turnLeft();
 		}
+		turnLeft();
 	  }
 	
 	
