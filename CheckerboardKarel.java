@@ -19,7 +19,7 @@ public void run() {
 		// two conditions (left -> right, or right -> left)
 		// move forward, put beepers, until front is blocked
 		while (frontIsClear()) {
-			putBeerpers();
+			putBeepers();
 			move();
 		}
 		
