@@ -48,7 +48,7 @@ public class CheckerboardKarel extends SuperKarel {
 				}
 			} else {
 				if (facingWest()) {
-					if (leftIsClear()) { // not hit ceiling
+					if (turnRight()) { // not hit ceiling
 						if (beepersPresent()) {
 							turnRight();
 							move();
