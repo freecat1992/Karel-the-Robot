@@ -24,6 +24,7 @@ public void run() {
 			// TODO: even/odd column check
 		}
 		
+		
 	}
 	
 	
