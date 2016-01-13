@@ -64,7 +64,7 @@ public class CheckerboardKarel extends SuperKarel {
 			}
 			
 			// Ending state: facing to the end of the new row, 
-			// put beepers (not always)
+			// with beeper under feet (not always)
 		}
 	}
 	
