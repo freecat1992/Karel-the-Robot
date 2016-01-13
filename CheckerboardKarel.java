@@ -24,7 +24,7 @@ public void run() {
 			// TODO: even/odd column check
 		}
 		
-		// change direction two conditions (left -> right, or right -> left)
+		// change direction, two conditions (left -> right, or right -> left)
 		if (facingEast()) {
 			turnLeft();
 		} else {
