@@ -52,13 +52,14 @@ public class CheckerboardKarel extends SuperKarel {
 						move();
 						putBeeper();
 						turnRight();
+						
 					
 				}
 			}
 		}
 		
 		
-		
+	}	
 		
 		
 		
