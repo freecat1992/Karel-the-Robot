@@ -27,7 +27,6 @@ public class CheckerboardKarel extends SuperKarel {
 			}
 			
 		}
-	}
     //change directions 
 		if (facingEast()) {
 			if (leftIsClear()) {
@@ -63,7 +62,7 @@ public class CheckerboardKarel extends SuperKarel {
 		
 	}	
 		
-		
+}		
 		
 		
 		
