@@ -43,8 +43,8 @@ public void run() {
 			putBeeper();
 		    turnLeft();}
 	  }
-	
-	
+}
+}	
 	
 // 2) if facing west, turn right
 //    if there is beeper, move, turn right,move, put beeper, repeat 2
