@@ -27,6 +27,8 @@ public void run() {
 		// change direction, two conditions (left -> right, or right -> left)
 		if (facingEast()) {
 			turnLeft();
+			move();
+			
 		} else {
 			if (facingWest()) {
 				turnRight();
