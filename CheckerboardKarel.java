@@ -36,8 +36,6 @@ public class CheckerboardKarel extends SuperKarel {
 			if (facingEast()) {
 				if (leftIsBlocked()) {
 					
-				} else {
-					
 				}
 			}
 			
