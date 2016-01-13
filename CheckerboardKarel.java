@@ -21,6 +21,7 @@ public void run() {
 	
 	while (frontIsClear()) {
 		// move forward, put beepers, until front is blocked
+		// 
 		while (frontIsClear()) {
 			putBeeper();
 			move();
