@@ -17,7 +17,7 @@ public void run() {
 	// Sweep row, until end
 	while (/*end condition*/) {
 		// two conditions
-		if () {
+		if (/*check direction*/) {
 			
 		} else {
 			
