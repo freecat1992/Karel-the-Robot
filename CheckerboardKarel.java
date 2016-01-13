@@ -67,8 +67,8 @@ public void run1() {
 			turnRight();
 	   }
 	  }
-
 	}
+	*/
   }
 
 	
@@ -81,4 +81,3 @@ public void run1() {
 	
 	
 	
-*/
