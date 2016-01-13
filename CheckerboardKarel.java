@@ -23,6 +23,8 @@ public class CheckerboardKarel extends SuperKarel {
 			}
 			
 			// if not hit ceiling, change direction
+			
+			// ending state: 
 		}
 	}
 	
