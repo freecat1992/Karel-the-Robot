@@ -32,6 +32,8 @@ public void run() {
 		} else {
 			if (facingWest()) {
 				turnRight();
+				move();
+				turnRight();
 			}
 		}
 		
