@@ -17,36 +17,7 @@ public void run() {
 	// Sweep row, until end
 	// end condition: 
 
-	putBeeper();
 	
-	while (frontIsClear()) {
-		// move forward, put beepers, until front is blocked
-		// if beeper presents, move
-		// else move and put beeper
-		while (frontIsClear()) {
-			putBeeper();
-			move();
-			move();
-			// TODO: even/odd column check
-		}
-		
-		// TODO: check if hit ceiling
-		// change direction, two conditions (left -> right, or right -> left)
-		// if beeper presents, move
-		// else move and put beeper
-		if (facingEast()) {
-			turnLeft();
-			move();
-			turnLeft();
-		} else {
-			if (facingWest()) {
-				turnRight();
-				move();
-				turnRight();
-			}
-		} 
-		
-	}
 	
 	
 	
@@ -56,6 +27,7 @@ public void run() {
     putBeeper();
 //2 while there is beeper, move; while no beeper, move, put beeper
 	while (frontIsClear()) {
+		while (frontIsClear()) {
 		if (beepersPresent()) {
 		move();
 	    } else {
@@ -81,14 +53,7 @@ public void run() {
 		}
 	  }
 	
-	while (frontIsClear()) {
-		if (beepersPresent()) {
-		move();
-	    } else {
-		move();
-		putBeeper();
-	}
-  }
+	
 	
 // 2) if facing west, turn right
 //    if there is beeper, move, turn right,move, put beeper, repeat 2
@@ -108,14 +73,6 @@ public void run() {
 		}
 	  }
 	
-	while (frontIsClear()) {
-		if (beepersPresent()) {
-		move();
-	    } else {
-		move();
-		putBeeper();
-	}
-  }
 	
 }
 	
