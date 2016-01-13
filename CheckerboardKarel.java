@@ -16,6 +16,9 @@ public class CheckerboardKarel extends SuperKarel {
 		
 	}
 	
+	
+	
+/*	
 public void run1() {
 	
 //1 put beeper
@@ -78,3 +81,4 @@ public void run1() {
 	
 	
 	
+*/
