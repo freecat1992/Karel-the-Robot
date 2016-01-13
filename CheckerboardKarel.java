@@ -39,6 +39,7 @@ public void run() {
 			}
 		} 
 		
+		// TODO: check hit ceiling
 	}
 	
 	
