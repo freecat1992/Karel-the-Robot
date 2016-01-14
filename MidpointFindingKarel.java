@@ -31,6 +31,7 @@ while (beepersPresent()) {
     	turnAround();
     }
     while (frontIsClear()) {
+    	move();
     	while (beepersPresent()) {
     		move(); 		
     	}
