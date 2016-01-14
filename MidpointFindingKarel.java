@@ -35,9 +35,9 @@ public void run() {
 		if (noBeepersPresent()) {
 		turnAround();
 		move();
-		}
 		if (beepersPresent()) {
 			pickBeeper();
+		}
 		} else { 
 		if (noBeepersPresent()) {
 			putBeeper();
