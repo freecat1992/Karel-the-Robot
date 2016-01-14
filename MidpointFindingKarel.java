@@ -16,33 +16,22 @@ public class MidpointFindingKarel extends SuperKarel {
 
 	// You fill in this part
 public void run() {
-//fill the row with beepers
+//fill the row with beepers except for the east and west most corner
 while (frontIsClear()) {
-	putBeeper();
 	move();
-  }
 	putBeeper();
-//pick beeper from the east end, pick beeper from west end, repeat
+  }
+    pickBeeper();
+    turnAround();
+// starting state: beepers fill first row except for the two ends,facing west
+// move while there is beeper----move to the west empty point
+// turn around, move, pick beeper
 while (beepersPresent()) {
-//pick the east most beeper
- //go to the west most point, pick the beeper, turn around
-    if (beepersPresent()) {
-    	pickBeeper();   
-    	turnAround();
-    }
-    while (frontIsClear()) {
-    	move();
-    	while (beepersPresent()) {
-    		move(); 		
-    	}
-    }else {
-    	turnAround();
-    }
- 
-	 
-	
- }
-
+	move();
+}
+turnAround();
+move();
+pickBeeper();
 
 
 }
