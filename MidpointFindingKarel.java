@@ -20,26 +20,28 @@ public void run() {
 while (frontIsClear()) {
 	putBeeper();
 	move();
-}
+  }
 	putBeeper();
 //pick beeper from the east end, pick beeper from west end, repeat
 while (beepersPresent()) {
-	turnAround();
-	while (frontIsClear()) {
-		pickBeeper();
-		move();
-	 }
-	turnAround();
-		
-	}
-
+//pick the east most beeper
+ //---go to the east most point where there is beeper, pick the beeper, turn around
+      turnAround();
+    if (beepersPresent()) {
+    	pickBeeper();
+    }
+     while (frontIsClear()) {
+    	move();
+    }
 	
+	// pick the west most beeper
+  //---go to the west most point where there is beeper, pick the beeper, turn around
+	
+	
+	
+ }
+
+
+
 }
-
-//when there is only one beeper left, stop
-	
-	
-	
-	
-	
 }
