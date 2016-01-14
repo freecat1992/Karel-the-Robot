@@ -25,7 +25,7 @@ while (frontIsClear()) {
 //pick beeper from the east end, pick beeper from west end, repeat
 while (beepersPresent()) {
 //pick the east most beeper
- //---go to the east most point where there is beeper, pick the beeper, turn around
+ //go to the west most point, pick the beeper, turn around
       turnAround();
     if (beepersPresent()) {
     	pickBeeper();
@@ -33,11 +33,16 @@ while (beepersPresent()) {
      while (frontIsClear()) {
     	move();
     }
-	
-	// pick the west most beeper
-  //---go to the west most point where there is beeper, pick the beeper, turn around
-	
-	
+	turnAround();
+// pick the east most beeper, pick the west most beeper
+	while (frontIsClear()) {
+		move();
+		if (beepersPresent()) {
+			pickBeeper();
+		}
+	}
+
+	 
 	
  }
 
