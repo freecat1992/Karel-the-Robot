@@ -27,15 +27,17 @@ public void run() {
 	// starting state: beepers fill first row except for the two ends,facing west
 	// move while there is beeper----move to the west empty point
 	// turn around, move, pick beeper
-	    move();
-	while (beepersPresent()) {
+	while (frontIsClear()) {
 		move();
+		while (beepersPresent()) {
+	 	move();
 		}
 		if (noBeepersPresent()) {
 		turnAround();
 		move();
 		pickBeeper();
 		}
+	}
 
 }
 }
