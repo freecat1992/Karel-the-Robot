@@ -36,6 +36,6 @@ public void run() {
 		move();
 		pickBeeper();
 	}
-	8/
+	*/
 }
 }
