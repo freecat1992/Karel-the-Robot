@@ -32,7 +32,6 @@ public void run() {
 		while (beepersPresent()) {
 	 	move();
 		}
-	    }
 		if (noBeepersPresent()) {
 		turnAround();
 		move();
@@ -40,7 +39,7 @@ public void run() {
 		if (beepersPresent()) {
 			pickBeeper();
 		}
-	
+	  }
 
 }
 }
