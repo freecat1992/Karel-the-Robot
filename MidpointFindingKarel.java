@@ -16,8 +16,8 @@ public class MidpointFindingKarel extends SuperKarel {
 
 	// You fill in this part
 public void run() {
+	/*
 //fill the row with beepers except for the east and west most corner
-/*
 while (frontIsClear()) {
 	move();
 	putBeeper();
