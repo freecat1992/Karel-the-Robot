@@ -28,11 +28,11 @@ public void run() {
 	// move while there is beeper----move to the west empty point
 	// turn around, move, pick beeper
 	while (frontIsClear()) {
-	   }
 		move();
 		while (beepersPresent()) {
 	 	move();
 		}
+	    }
 		if (noBeepersPresent()) {
 		turnAround();
 		move();
