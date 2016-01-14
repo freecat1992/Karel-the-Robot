@@ -28,12 +28,13 @@ while (frontIsClear()) {
 // turn around, move, pick beeper
 while (frontIsClear()) {
 	while (beepersPresent()) {
-   }
 	move();
+	}
 turnAround();
 move();
 pickBeeper();
-}
 
+
+}
 }
 }
