@@ -35,6 +35,8 @@ while (beepersPresent()) {
     	while (beepersPresent()) {
     		move(); 		
     	}
+    }else {
+    	turnAround();
     }
  
 	 
