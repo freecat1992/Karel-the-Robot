@@ -38,7 +38,8 @@ public void run() {
 		}
 		if (beepersPresent()) {
 			pickBeeper();
-		} else {
+		} 
+		if (noBeepersPresent()) {
 			putBeeper();
 		}
 	  }
