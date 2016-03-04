@@ -7,6 +7,8 @@
  * worlds supplied in the starter folder.
  */
 
+// Test by Kuan & Fei
+
 import stanford.karel.*;
 
 public class CheckerboardKarel extends SuperKarel {
